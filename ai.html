@@ -7,67 +7,125 @@
   <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-
-  <!-- Navigation Section -->
-  <nav class="navbar">
-    <h1 class="logo">Emerging Tech Hub</h1>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="cybersecurity.html">Cybersecurity</a></li>
-      <li><a href="ai.html">Artificial Intelligence</a></li>
-      <li><a href="data-analytics.html" class="active">Data Analytics</a></li>
-      <li><a href="quantum-computing.html">Quantum Computing</a></li>
-      <li><a href="gen-ai.html">Generative AI</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <h2>Artificial Intelligence</h2>
-    <p>Unlocking the potential of machines to learn, reason, and make decisions.</p>
+  <!-- Header & Navigation -->
+  <header class="header">
+      <h1>🌐Emerging Tech Hub</h1>
+      <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+        <li><a href="ai.html" class="active">Artificial Intelligence</a></li>
+        <li><a href="data-analytics.html">Data Analytics</a></li>
+        <li><a href="quantum-computing.html">Quantum Computing</a></li>
+        <li><a href="gen-ai.html">Generative AI</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- AI Content -->
-  <main>
-    <section class="card">
-      <h3>What is AI?</h3>
-      <p>
-        Artificial Intelligence (AI) refers to the simulation of human intelligence in machines. 
-        These systems are designed to think, learn, and adapt. AI powers technologies that range 
-        from search engines and digital assistants to robotics and autonomous vehicles.
-      </p>
-      <p>
-        AI combines computer science, data, and advanced algorithms to create systems capable of 
-        solving complex problems that once required human intelligence.
-      </p>
+  <!-- Main Content with Sidebar -->
+  <main class="grid-layout">
+    <!-- Left Column: Main AI Content -->
+    <section class="content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Artificial Intelligence</h2>
+          <p>Unlocking the potential of machines to learn, reason, and make decisions.</p>
+        </div>
+      </section>
+
+      <!-- Featured Section -->
+      <section class="featured">
+        <div class="card-container">
+          
+          <div class="card">
+            <h3>What is AI?</h3>
+            <p>
+              Artificial Intelligence (AI) refers to the simulation of human intelligence in machines. 
+              These systems are designed to think, learn, and adapt. AI powers technologies that range 
+              from search engines and digital assistants to robotics and autonomous vehicles.
+            </p>
+            <p>
+              AI combines computer science, data, and advanced algorithms to create systems capable of 
+              solving complex problems that once required human intelligence.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Applications of AI</h3>
+            <ul>
+              <li><strong>Natural Language Processing:</strong> Understanding and generating human language.</li>
+              <li><strong>Computer Vision:</strong> Teaching machines to interpret visual data.</li>
+              <li><strong>Predictive Analytics:</strong> Forecasting trends from data.</li>
+              <li><strong>Generative AI:</strong> Creating new content like text, images, and music.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>AI in Cybersecurity</h3>
+            <p>
+              One of AI’s most important applications is in cybersecurity. AI algorithms analyze vast 
+              amounts of network data to detect anomalies, block threats, and automate responses faster 
+              than humans could.
+            </p>
+            <p>
+              By combining AI with cybersecurity, organizations can build more resilient digital defenses 
+              to counter modern threats.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Advantages & Threats of AI</h3>
+            <p><strong>Advantages:</strong></p>
+            <ul>
+              <li>Automation of repetitive tasks</li>
+              <li>Data-driven decision-making</li>
+              <li>24/7 availability with AI systems</li>
+              <li>Innovation in healthcare, transport, and education</li>
+            </ul>
+
+            <p><strong>Threats:</strong></p>
+            <ul>
+              <li>Job displacement due to automation</li>
+              <li>Bias in algorithms</li>
+              <li>Security risks from malicious AI</li>
+              <li>Ethical concerns (privacy & control)</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
     </section>
 
-    <section class="card">
-      <h3>Applications of AI</h3>
-      <p><strong>Natural Language Processing:</strong> Understanding and generating human language (e.g., chatbots, translation tools).</p>
-      <p><strong>Computer Vision:</strong> Teaching machines to interpret and analyze visual data (e.g., facial recognition, medical imaging).</p>
-      <p><strong>Predictive Analytics:</strong> Forecasting trends from data (e.g., fraud detection, stock predictions).</p>
-      <p><strong>Generative AI:</strong> Creating new content, such as text, images, and music.</p>
-    </section>
+    <!-- Right Column: Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-card">
+        <h3>Latest AI Trends</h3>
+        <ul>
+          <li>AI-powered healthcare diagnostics</li>
+          <li>Generative AI in content creation</li>
+          <li>AI-driven personalization in e-commerce</li>
+          <li>Autonomous vehicles development</li>
+          <li>AI in climate change prediction</li>
+        </ul>
+      </div>
 
-    <section class="card">
-      <h3>AI in Cybersecurity</h3>
-      <p>
-        One of AI’s most important applications is in cybersecurity. AI algorithms analyze vast 
-        amounts of network data to detect anomalies, block threats, and automate responses faster 
-        than humans could.
-      </p>
-      <p>
-        By combining AI with cybersecurity, organizations can build more resilient digital defenses 
-        to counter modern threats.
-      </p>
-    </section>
+      <div class="sidebar-card">
+        <h3>Important Links</h3>
+        <ul>
+          <li><a href="https://openai.com/research" target="_blank">OpenAI Research</a></li>
+          <li><a href="https://deepmind.google" target="_blank">Google DeepMind</a></li>
+          <li><a href="https://ai.meta.com" target="_blank">Meta AI</a></li>
+          <li><a href="https://www.ibm.com/watson" target="_blank">IBM Watson</a></li>
+          <li><a href="https://www.weforum.org/centre-for-the-fourth-industrial-revolution" target="_blank">World Economic Forum - AI</a></li>
+        </ul>
+      </div>
+    </aside>
   </main>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer class="footer">
     <p>© 2025 Emerging Tech Hub | Artificial Intelligence Page</p>
   </footer>
-
 </body>
 </html>

@@ -7,109 +7,65 @@
   <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-
-  <!-- Navigation Section -->
-  <nav class="navbar">
-    <h1 class="logo">Emerging Tech Hub</h1>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="cybersecurity.html">Cybersecurity</a></li>
-      <li><a href="ai.html">Artificial Intelligence</a></li>
-      <li><a href="data-analytics.html">Data Analytics</a></li>
-      <li><a href="quantum-computing.html">Quantum Computing</a></li>
-      <li><a href="gen-ai.html">Generative AI</a></li>
-      <li><a href="blog.html" class="active">Community Blog</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <h2>Cybersecurity</h2>
-    <p>Protecting the digital world through advanced technologies and strategies.</p>
+  <!-- Header -->
+  <header class="header">
+    <h1>🌐 Emerging Tech Hub</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cybersecurity.html" class="active">Cybersecurity</a></li>
+        <li><a href="ai.html">AI</a></li>
+        <li><a href="data-analytics.html">Data Analytics</a></li>
+        <li><a href="quantum-computing.html">Quantum Computing</a></li>
+        <li><a href="gen-ai.html">Generative AI</a></li>
+        <li><a href="blog.html">Community Blog</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Cybersecurity Content -->
-  <main>
-    <!-- Intro -->
-    <section class="card">
-      <h3>What is Cybersecurity?</h3>
+  <!-- Grid Layout -->
+  <main class="grid-layout">
+    <!-- Main Content -->
+    <section class="hero">
+      <h2>Cybersecurity 🔐</h2>
       <p>
-        Cybersecurity is the practice of defending computers, servers, mobile devices, electronic systems,
-        networks, and data from malicious attacks. It is also known as information technology security 
-        or electronic information security.
-      </p>
-      <p>
-        As businesses, governments, and individuals rely more heavily on technology, the importance of 
-        cybersecurity has skyrocketed. Without it, personal data, financial records, and even 
-        national infrastructure could be at risk of being compromised.
+        Cybersecurity is the practice of protecting systems, networks, and data from cyber threats. 
+        In today's interconnected world, it has become a vital pillar for both individuals and organizations.
       </p>
     </section>
 
-    <!-- Types of Threats -->
-    <section class="card">
-      <h3>Types of Cyber Threats</h3>
-      <p><strong>Malware:</strong> Malicious software such as viruses, worms, or trojans designed to damage or disrupt systems.</p>
-      <p><strong>Phishing:</strong> Fraudulent attempts to trick users into sharing sensitive information through fake emails or websites.</p>
-      <p><strong>Ransomware:</strong> Software that locks users out of their systems or files until a ransom is paid.</p>
-      <p><strong>Denial-of-Service (DoS) Attacks:</strong> Flooding systems with traffic to make them unavailable.</p>
-      <p><strong>Insider Threats:</strong> Employees or contractors who misuse their access to harm the organization.</p>
+    <section class="featured">
+      <h2>Key Areas of Cybersecurity</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Network Security</h3>
+          <p>Protecting networks from intrusions, malware, and unauthorized access through firewalls, VPNs, and monitoring systems.</p>
+        </div>
+        <div class="card">
+          <h3>Data Privacy</h3>
+          <p>Ensuring sensitive information is encrypted, anonymized, and stored securely to comply with regulations like GDPR.</p>
+        </div>
+        <div class="card">
+          <h3>Incident Response</h3>
+          <p>Detecting, mitigating, and recovering from security breaches with well-documented response plans.</p>
+        </div>
+      </div>
     </section>
 
-    <!-- Technologies -->
-    <section class="card">
-      <h3>Key Cybersecurity Technologies</h3>
-      <p><strong>Zero Trust Architecture:</strong> A security model that requires verification from every user and device, regardless of location.</p>
-      <p><strong>AI-Powered Threat Detection:</strong> Systems that monitor and analyze behavior to detect attacks in real time.</p>
-      <p><strong>Biometric Authentication:</strong> Fingerprint scans, facial recognition, and iris scans to ensure secure access.</p>
-      <p><strong>Encryption:</strong> Encoding sensitive data to keep it secure during storage and transmission.</p>
-      <p><strong>Cloud Security:</strong> Tools and practices to protect data hosted in cloud services.</p>
-    </section>
-
-    <!-- Careers -->
-    <section class="card">
-      <h3>Careers in Cybersecurity</h3>
-      <p>
-        With the rise of digital threats, cybersecurity professionals are in high demand across 
-        industries. Careers range from technical roles like <strong>penetration testers</strong> 
-        and <strong>security analysts</strong> to leadership positions such as 
-        <strong>Chief Information Security Officer (CISO)</strong>.
-      </p>
-      <p>
-        Common career paths include:
-        <ul>
-          <li>Network Security Engineer</li>
-          <li>Incident Response Specialist</li>
-          <li>Cloud Security Architect</li>
-          <li>Ethical Hacker / Pen Tester</li>
-        </ul>
-      </p>
-    </section>
-
-    <!-- Future -->
-    <section class="card">
-      <h3>The Future of Cybersecurity</h3>
-      <p>
-        As technology evolves, so do cyber threats. Emerging trends include the use of 
-        <strong>quantum computing</strong>, which could both break current encryption 
-        and create new, more secure cryptographic methods.
-      </p>
-      <p>
-        The integration of AI with cybersecurity is expected to grow, enabling systems 
-        that can automatically detect, predict, and neutralize threats with minimal 
-        human intervention. This will transform how organizations defend themselves 
-        against increasingly complex attacks.
-      </p>
-      <p>
-        The future of cybersecurity will also focus on privacy, ethics, and international 
-        collaboration to protect users worldwide.
-      </p>
-    </section>
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="#">Top Cybersecurity Trends</a></li>
+        <li><a href="#">Best Practices for Businesses</a></li>
+        <li><a href="#">Global Cybersecurity Frameworks</a></li>
+      </ul>
+    </aside>
   </main>
 
-  <!-- Footer Section -->
+  <!-- Footer -->
   <footer class="footer">
-    <p>© 2025 Emerging Tech Hub | Cybersecurity Page</p>
+    <p>©MvT 2025 Emerging Tech Hub | Cybersecurity Insights</p>
   </footer>
-
 </body>
 </html>

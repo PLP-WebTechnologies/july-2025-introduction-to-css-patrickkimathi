@@ -3,112 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emerging Tech Hub - Home</title>
+  <title>Emerging Tech Hub</title>
   <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-
-   <!-- Navigation -->
-   <nav class="navbar">
-    <h1 class="logo">Emerging Tech Hub</h1>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="cybersecurity.html">Cybersecurity</a></li>
-      <li><a href="ai.html">Artificial Intelligence</a></li>
-      <li><a href="data-analytics.html">Data Analytics</a></li>
-      <li><a href="quantum-computing.html">Quantum Computing</a></li>
-      <li><a href="generative-ai.html">Generative AI</a></li>
-      <li><a href="blog.html" class="active">Community Blog</a></li>
-    </ul>
-  </nav>
-
-<!--make the heaber static so tha it is frozen-->
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <h2>Welcome to Emerging Tech Hub</h2>
-    <p>Explore the technologies shaping the future — from Cybersecurity to Artificial Intelligence.</p>
+  <!-- Header with Flexbox Navigation -->
+  <header class="header">
+    <h1>🌐 Emerging Tech Hub</h1>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cybersecurity.html">Cybersecurity</a></li>
+        <li><a href="ai.html">AI</a></li>
+        <li><a href="data-analytics.html">Data Analytics</a></li>
+        <li><a href="quantum-computing.html">Quantum Computing</a></li>
+        <li><a href="genai.html">Generative AI</a></li>
+        <li><a href="blog.html">Community Blog</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- About Section -->
-  <section class="card">
-    <h3>About Emerging Technologies</h3>
-    <p>
-      Emerging technologies are innovations that represent progressive developments 
-      within a field, often bringing transformative changes to society, business, 
-      and everyday life. They can disrupt traditional practices, create new industries, 
-      and redefine how people interact with technology.
-    </p>
-    <p>
-      At Emerging Tech Hub, we explore key innovations such as 
-      <strong>Cybersecurity</strong> and <strong>Artificial Intelligence</strong>, 
-      providing insights into their applications, challenges, and opportunities. 
-      These fields are among the fastest growing areas in technology, 
-      influencing sectors like healthcare, finance, education, and governance.
-    </p>
-    <p>
-      The pace of technological change is accelerating, and understanding these 
-      technologies is essential for businesses, policymakers, and individuals alike. 
-      Our goal is to break down complex concepts and make them accessible, while 
-      highlighting their real-world impact.
-    </p>
-  </section>
+  <!-- Grid Layout for Content -->
+  <main class="grid-layout">
+    <section class="hero">
+      <h2>Welcome to the Future 🚀</h2>
+      <p>Exploring how emerging technologies are shaping industries, governance, and society.</p>
+    </section>
 
-  <!-- Featured Technologies Section -->
-  <section class="card">
-    <h3>Featured Technologies</h3>
-    <div class="tech-grid">
-
-      <!-- Cybersecurity Card -->
-      <div class="tech-card">
-        <h4>Cybersecurity</h4>
-        <p>
-          Safeguarding digital systems and data from malicious attacks through 
-          advanced defense strategies and technologies.
-        </p>
-        <p>
-          Explore threats like ransomware and phishing, and learn how Zero Trust, 
-          AI-powered detection, and encryption are transforming online security.
-        </p>
-        <a href="cybersecurity.html" class="btn">Learn More</a>
+    <section class="featured">
+      <h2>Featured Technologies</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Cybersecurity</h3>
+          <p>Protecting data, privacy, and critical infrastructure in an interconnected world.</p>
+        </div>
+        <div class="card">
+          <h3>Artificial Intelligence</h3>
+          <p>AI systems powering automation, decision-making, and creativity.</p>
+        </div>
+        <div class="card">
+          <h3>Quantum Computing</h3>
+          <p>The next frontier in computational power and problem-solving.</p>
+        </div>
       </div>
+    </section>
 
-      <!-- AI Card -->
-      <div class="tech-card">
-        <h4>Artificial Intelligence</h4>
-        <p>
-          AI is revolutionizing industries by enabling machines to perform tasks 
-          that typically require human intelligence.
-        </p>
-        <p>
-          From natural language processing to autonomous vehicles, discover how AI 
-          is reshaping the world and what the future holds.
-        </p>
-        <a href="ai.html" class="btn">Learn More</a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Vision Section -->
-  <section class="card">
-    <h3>Our Vision</h3>
-    <p>
-      The Emerging Tech Hub aims to be a knowledge platform where learners, 
-      innovators, and professionals can gain insights into disruptive 
-      technologies. By fostering understanding, we empower individuals and 
-      organizations to leverage these technologies for growth and resilience.
-    </p>
-    <p>
-      We envision a future where technology is not only a tool but also a 
-      driver of social good, sustainability, and ethical progress. 
-    </p>
-  </section>
+    <aside class="sidebar">
+      <h2>Latest Blog Posts</h2>
+      <ul>
+        <li><a href="blog.html">The Role of AI in Cybersecurity</a></li>
+        <li><a href="blog.html">Quantum Computing: Hype vs Reality</a></li>
+        <li><a href="blog.html">Generative AI for Education</a></li>
+      </ul>
+    </aside>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
-    <p>© 2025 Emerging Tech Hub | Exploring the Future of Technology</p>
+    <p>©MvT 2025 Emerging Tech Hub | Built with HTML & CSS (Flexbox + Grid)</p>
   </footer>
-
 </body>
 </html>
